@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"] - WebCoreIsIstek</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    @*<link href="~/Tema1/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />*@
+    @*........................................................................*@
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    @*........................................................................*@
+    <link rel="stylesheet" href="~/Tema1/assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Tema1/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/Beautiful-Footer.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/Bold-BS4-CSS-Image-Slider.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/animate.min.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="~/Tema1/assets/css/styles.css">
+
+
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/Home">Türker Ltd.</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                 id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="UserPhotos/Index">Foto lar</a></li>
+
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Tanımlamalar </a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="/Kullanicilar">Kullanıcılar</a>
+                            <a class="dropdown-item" role="presentation" href="#">Makinalar</a>
+                            <a class="dropdown-item" role="presentation" href="#">...</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <hr />
+
+    @*<footer class="footer-clean">
+            <div style="width: 100%;height: 100%;display: grid;grid-template-rows: 3% 75% 22%;">
+                <div class="footer-row-divs" style="background-color: rgb(255,215,0);margin: 0px;border-width: 0px;"></div>
+                <div class="footer-row-divs" style="display: grid;grid-template-columns: 50% auto auto;width: 80%;height: 100%;margin: auto;">
+                    <div class="footer-text-divs">
+                        <div class="div-footer-internal">
+                            <h3 class="footer-text-heading">About Us</h3>
+                        </div>
+                        <div class="div-footer-internal">
+                            <p class="footer-text-paragraph"><br>FedChoice Bank was founded on 14th June 2016 with the objective of providing with the detail services based on Retail Banking operations The Retail Internet Banking of FedChoice Bank offers a plethora of products and services, to cater its customers by providing certain animus services with an easy evolving offers and ways to do the required job without hurdling the process</p>
+                        </div>
+                    </div><div class="footer-text-divs">
+                        <div>
+                            <h3 class="footer-text-heading">Services</h3>
+                        </div>
+                        <div>
+                            <p class="footer-text-paragraph">
+                                <br>Retail and Consumer Banking
+                                <br>Personal Internet Banking
+                                <br>Corporate Internet Banking
+                                <br>Debit and Credit Card
+                            </p>
+                        </div>
+                    </div><div class="footer-text-divs">
+                        <div>
+                            <h3 class="footer-text-heading">Contact Us</h3>
+                        </div>
+                        <div>
+                            <p class="footer-text-paragraph">
+                                <br>Email: customer.service@fedchoice.com
+                                <br>Contact No : 02242406778, 02254567890
+                                <br>Address Corporate Office, Madame Cama Road, Nariman Point, Mumbai, Maharashtra 400021
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-row-divs" style="background-color: rgb(39,39,39);display: grid;grid-template-columns: 50% 50%;">
+                    <div class="copytightdiv-containers"><p style="font-weight: 600;margin: auto;">Copyright&copy; All rights reserved by<span style="color: rgb(255,215,0);">Aydın Türker</span></p></div>
+                    <div class="copytightdiv-containers">
+                        <div>
+                            <p style="color: rgb(255,215,0);display: inline;">Connect Us</p><a data-toggle="tooltip" data-bs-tooltip="" href="https://facebook.com/" style="margin-left: 8px;" title="Facebook"><i class="icon ion-social-facebook footer-icons"></i></a><a data-toggle="tooltip" data-bs-tooltip=""
+                                                                                                                                                                                                                                                                            href="https://twitter.com/" title="Twitter"><i class="icon ion-social-twitter footer-icons" title="Twitter"></i></a><a data-toggle="tooltip" data-bs-tooltip="" href="https://www.google.com/" title="Google+"><i class="icon ion-social-googleplus footer-icons" title="Google+"></i></a>
+                            <a data-toggle="tooltip" data-bs-tooltip="" href="https://in.linkedin.com/" title="Linkdin"><i class="icon ion-social-linkedin footer-icons"></i></a><a data-toggle="tooltip" data-bs-tooltip="" href="https://www.instagram.com/" title="Instagram"><i class="icon ion-social-instagram footer-icons"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>*@
+
+    @*Tema css - js*@
+    <script src="~/Tema1/assets/js/jquery.min.js"></script>
+    @*<script src="~/Tema1/assets/bootstrap/js/bootstrap.min.js"></script>*@
+    @*........................................................................*@
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    @*........................................................................*@
+    @*<script src="~/Tema1/assets/js/bs-init.js"></script>*@
+    @*--------------------------*@
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
